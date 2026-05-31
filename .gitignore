@@ -1,0 +1,13 @@
+target/
+*.class
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Generated test sources and manifests (rebuilt from tier + seed).
+chaos-corpus/src/test/java/io/phoenixfire/chaos/generated/
+chaos-corpus/src/test/resources/chaos/
+chaos-corpus/manifest/generated/

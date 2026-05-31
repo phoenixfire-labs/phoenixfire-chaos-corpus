@@ -1,0 +1,8 @@
+{
+  "tier": "stress",
+  "classCount": 3000,
+  "testsPerClass": 10,
+  "defaultSeed": 42,
+  "approxTests": 30000,
+  "notes": "Local/weekly hammer — tens of minutes; use generous heap and forkCount."
+}

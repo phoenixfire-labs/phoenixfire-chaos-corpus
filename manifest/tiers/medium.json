@@ -1,0 +1,8 @@
+{
+  "tier": "medium",
+  "classCount": 200,
+  "testsPerClass": 10,
+  "defaultSeed": 42,
+  "approxTests": 2000,
+  "notes": "Nightly scale — a few minutes depending on fork settings."
+}

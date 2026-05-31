@@ -1,0 +1,709 @@
+{
+  "tier": "SMOKE",
+  "seed": 42,
+  "classCount": 20,
+  "testsPerClass": 5,
+  "totalTests": 100,
+  "outcomes": [
+    {
+      "testId": "0000.00",
+      "behavior": "BROKEN_SINGLETON_PAIR_TOUCH",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0000.01",
+      "behavior": "BROKEN_SINGLETON_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0000.02",
+      "behavior": "INTERMITTENT_OOM",
+      "expectedFailureMode": "OOM",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0000.03",
+      "behavior": "BROKEN_SINGLETON_PAIR_TOUCH",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0000.04",
+      "behavior": "BROKEN_SINGLETON_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0001.00",
+      "behavior": "BROKEN_SINGLETON_PAIR_TOUCH",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0001.01",
+      "behavior": "BROKEN_SINGLETON_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0001.02",
+      "behavior": "STABLE_PASS",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0001.03",
+      "behavior": "INTERMITTENT_OOM",
+      "expectedFailureMode": "OOM",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0001.04",
+      "behavior": "STATELESS_FLAKE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0002.00",
+      "behavior": "POLLUTION_CRASH_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0002.01",
+      "behavior": "POLLUTION_CRASH_PAIR_CRASH",
+      "expectedFailureMode": "SIGKILL",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0002.02",
+      "behavior": "STABLE_PASS",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0002.03",
+      "behavior": "INTERMITTENT_SLOW",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0002.04",
+      "behavior": "STATELESS_FLAKE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0003.00",
+      "behavior": "DEADLOCK",
+      "expectedFailureMode": "HEARTBEAT_TIMEOUT",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0003.01",
+      "behavior": "INTERMITTENT_SLOW",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0003.02",
+      "behavior": "STABLE_PASS",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0003.03",
+      "behavior": "INTERMITTENT_OOM",
+      "expectedFailureMode": "OOM",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0003.04",
+      "behavior": "STATELESS_FLAKE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0004.00",
+      "behavior": "BROKEN_SINGLETON_PAIR_TOUCH",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0004.01",
+      "behavior": "BROKEN_SINGLETON_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0004.02",
+      "behavior": "STABLE_PASS",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0004.03",
+      "behavior": "INTERMITTENT_SLOW",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0004.04",
+      "behavior": "STATELESS_FLAKE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0005.00",
+      "behavior": "POLLUTION_CRASH_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0005.01",
+      "behavior": "POLLUTION_CRASH_PAIR_CRASH",
+      "expectedFailureMode": "SIGKILL",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0005.02",
+      "behavior": "DEADLOCK",
+      "expectedFailureMode": "HEARTBEAT_TIMEOUT",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0005.03",
+      "behavior": "INTERMITTENT_SLOW",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0005.04",
+      "behavior": "STATELESS_FLAKE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0006.00",
+      "behavior": "STATIC_ORDER_PAIR_POLLUTE",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0006.01",
+      "behavior": "STATIC_ORDER_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0006.02",
+      "behavior": "BROKEN_SINGLETON_PAIR_TOUCH",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0006.03",
+      "behavior": "BROKEN_SINGLETON_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0006.04",
+      "behavior": "STATELESS_FLAKE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0007.00",
+      "behavior": "BROKEN_SINGLETON_PAIR_TOUCH",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0007.01",
+      "behavior": "BROKEN_SINGLETON_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0007.02",
+      "behavior": "BROKEN_SINGLETON_PAIR_TOUCH",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0007.03",
+      "behavior": "BROKEN_SINGLETON_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0007.04",
+      "behavior": "STATELESS_FLAKE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0008.00",
+      "behavior": "BROKEN_SINGLETON_PAIR_TOUCH",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0008.01",
+      "behavior": "BROKEN_SINGLETON_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0008.02",
+      "behavior": "POLLUTION_CRASH_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0008.03",
+      "behavior": "POLLUTION_CRASH_PAIR_CRASH",
+      "expectedFailureMode": "SIGKILL",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0008.04",
+      "behavior": "STATELESS_FLAKE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0009.00",
+      "behavior": "STATELESS_FLAKE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0009.01",
+      "behavior": "HEAP_PRESSURE",
+      "expectedFailureMode": "OOM",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0009.02",
+      "behavior": "POLLUTION_CRASH_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0009.03",
+      "behavior": "POLLUTION_CRASH_PAIR_CRASH",
+      "expectedFailureMode": "SIGKILL",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0009.04",
+      "behavior": "STATELESS_FLAKE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0010.00",
+      "behavior": "STABLE_PASS",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0010.01",
+      "behavior": "STATELESS_FLAKE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0010.02",
+      "behavior": "STABLE_PASS",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0010.03",
+      "behavior": "STATIC_ORDER_PAIR_POLLUTE",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0010.04",
+      "behavior": "STATIC_ORDER_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0011.00",
+      "behavior": "DEADLOCK",
+      "expectedFailureMode": "HEARTBEAT_TIMEOUT",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0011.01",
+      "behavior": "STATELESS_FLAKE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0011.02",
+      "behavior": "DEADLOCK",
+      "expectedFailureMode": "HEARTBEAT_TIMEOUT",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0011.03",
+      "behavior": "POLLUTION_CRASH_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0011.04",
+      "behavior": "POLLUTION_CRASH_PAIR_CRASH",
+      "expectedFailureMode": "SIGKILL",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0012.00",
+      "behavior": "STABLE_PASS",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0012.01",
+      "behavior": "INTERMITTENT_HALT",
+      "expectedFailureMode": "SIGKILL",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0012.02",
+      "behavior": "PERMANENT_FAIL",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "ONE_FORK_PER_CLASS",
+      "expectedFinalState": "FAILED"
+    },
+    {
+      "testId": "0012.03",
+      "behavior": "INTERMITTENT_HALT",
+      "expectedFailureMode": "SIGKILL",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0012.04",
+      "behavior": "INTERMITTENT_HALT",
+      "expectedFailureMode": "SIGKILL",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0013.00",
+      "behavior": "STABLE_PASS",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0013.01",
+      "behavior": "RECOVER_AFTER_FILE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0013.02",
+      "behavior": "STABLE_PASS",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0013.03",
+      "behavior": "HEAP_PRESSURE",
+      "expectedFailureMode": "OOM",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0013.04",
+      "behavior": "PERMANENT_FAIL",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "ONE_FORK_PER_CLASS",
+      "expectedFinalState": "FAILED"
+    },
+    {
+      "testId": "0014.00",
+      "behavior": "STABLE_PASS",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0014.01",
+      "behavior": "RECOVER_AFTER_FILE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0014.02",
+      "behavior": "DEADLOCK",
+      "expectedFailureMode": "HEARTBEAT_TIMEOUT",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0014.03",
+      "behavior": "INTERMITTENT_SLOW",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0014.04",
+      "behavior": "INTERMITTENT_HALT",
+      "expectedFailureMode": "SIGKILL",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0015.00",
+      "behavior": "STABLE_PASS",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0015.01",
+      "behavior": "RECOVER_AFTER_FILE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0015.02",
+      "behavior": "DEADLOCK",
+      "expectedFailureMode": "HEARTBEAT_TIMEOUT",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0015.03",
+      "behavior": "HEAP_PRESSURE",
+      "expectedFailureMode": "OOM",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0015.04",
+      "behavior": "INTERMITTENT_HALT",
+      "expectedFailureMode": "SIGKILL",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0016.00",
+      "behavior": "DEADLOCK",
+      "expectedFailureMode": "HEARTBEAT_TIMEOUT",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0016.01",
+      "behavior": "RECOVER_AFTER_FILE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0016.02",
+      "behavior": "BROKEN_SINGLETON_PAIR_TOUCH",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0016.03",
+      "behavior": "BROKEN_SINGLETON_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0016.04",
+      "behavior": "INTERMITTENT_OOM",
+      "expectedFailureMode": "OOM",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0017.00",
+      "behavior": "DEADLOCK",
+      "expectedFailureMode": "HEARTBEAT_TIMEOUT",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0017.01",
+      "behavior": "RECOVER_AFTER_FILE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0017.02",
+      "behavior": "BROKEN_SINGLETON_PAIR_TOUCH",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0017.03",
+      "behavior": "BROKEN_SINGLETON_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0017.04",
+      "behavior": "INTERMITTENT_HALT",
+      "expectedFailureMode": "SIGKILL",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0018.00",
+      "behavior": "STABLE_PASS",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0018.01",
+      "behavior": "RECOVER_AFTER_FILE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0018.02",
+      "behavior": "POLLUTION_CRASH_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0018.03",
+      "behavior": "POLLUTION_CRASH_PAIR_CRASH",
+      "expectedFailureMode": "SIGKILL",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0018.04",
+      "behavior": "INTERMITTENT_OOM",
+      "expectedFailureMode": "OOM",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0019.00",
+      "behavior": "STABLE_PASS",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0019.01",
+      "behavior": "RECOVER_AFTER_FILE",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0019.02",
+      "behavior": "STATIC_ORDER_PAIR_POLLUTE",
+      "expectedFailureMode": "NONE",
+      "expectedRecovery": "SHARED_FORK_POOL",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0019.03",
+      "behavior": "STATIC_ORDER_PAIR_VICTIM",
+      "expectedFailureMode": "ASSERTION_FAILURE",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    },
+    {
+      "testId": "0019.04",
+      "behavior": "INTERMITTENT_OOM",
+      "expectedFailureMode": "OOM",
+      "expectedRecovery": "FRESH_FORK",
+      "expectedFinalState": "PASSED"
+    }
+  ]
+}

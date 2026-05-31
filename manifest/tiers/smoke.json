@@ -1,0 +1,8 @@
+{
+  "tier": "smoke",
+  "classCount": 20,
+  "testsPerClass": 5,
+  "defaultSeed": 42,
+  "approxTests": 100,
+  "notes": "Fast PR/CI tier — completes in seconds with Phoenixfire."
+}
