@@ -1,6 +1,6 @@
 # Phoenixfire Chaos Corpus
 
-A sister project that generates **stochastic and adversarial JUnit tests** for stress-testing [Phoenixfire](https://github.com/BenManifold/maven-phoenixfire-plugin). Tests are produced from a seeded tier definition — not hand-written — so you can scale from a fast smoke run to tens of thousands of methods without maintaining a giant source tree.
+A sister project that generates **stochastic and adversarial JUnit tests** for stress-testing [Phoenixfire](https://github.com/phoenixfire-labs/maven-phoenixfire-plugin). Tests are produced from a seeded tier definition — not hand-written — so you can scale from a fast smoke run to tens of thousands of methods without maintaining a giant source tree.
 
 ## Layout
 
@@ -79,7 +79,7 @@ With `-Pphoenixfire` alone, **permanent failures and unrecovered flakes fail the
 mvn -pl chaos-generator package
 java -jar chaos-generator/target/chaos-generator-0.1.0-SNAPSHOT.jar \
   --tier smoke --seed 42 \
-  --output chaos-corpus/src/test/java/io/phoenixfire/chaos/generated \
+  --output chaos-corpus/src/test/java \
   --manifest chaos-corpus/manifest \
   --resources chaos-corpus/src/test/resources/chaos
 ```

@@ -61,7 +61,7 @@
                                 <argument>--seed</argument>
                                 <argument>${chaos.seed}</argument>
                                 <argument>--output</argument>
-                                <argument>${project.basedir}/src/test/java/io/phoenixfire/chaos/generated</argument>
+                                <argument>${project.basedir}/src/test/java</argument>
                                 <argument>--manifest</argument>
                                 <argument>${project.basedir}/manifest</argument>
                                 <argument>--resources</argument>
@@ -114,7 +114,7 @@
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>io.github.benmanifold</groupId>
+                        <groupId>io.github.phoenixfire-labs</groupId>
                         <artifactId>phoenixfire-maven-plugin</artifactId>
                         <configuration>
                             <testFailureIgnore>true</testFailureIgnore>
@@ -135,7 +135,7 @@
                         </configuration>
                     </plugin>
                     <plugin>
-                        <groupId>io.github.benmanifold</groupId>
+                        <groupId>io.github.phoenixfire-labs</groupId>
                         <artifactId>phoenixfire-maven-plugin</artifactId>
                         <version>${phoenixfire.version}</version>
                         <executions>
