@@ -71,6 +71,8 @@ mvn clean test -pl chaos-corpus -Pphoenixfire,phoenixfire-explore -Dchaos.tier=m
 
 With `-Pphoenixfire` alone, **permanent failures and unrecovered flakes fail the build** — that is intentional. A typical smoke run reports many `Flaky(recovered)` tests alongside a handful of expected hard failures.
 
+The corpus uses **JUnit 6.0.3** (BOM) with an explicit `junit-platform-launcher` on the test classpath so fork discovery matches the Phoenixfire plugin’s Platform version. On **PowerShell**, quote `-D` properties: `"-Dchaos.tier=smoke"`.
+
 **Important:** run `mvn clean` before Phoenixfire stress runs so file-based attempt markers under `target/chaos/` do not carry over.
 
 ### Generator CLI
